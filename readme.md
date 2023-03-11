@@ -1,0 +1,2 @@
+# Code Analysis Project: JS Bundler Comparison
+This repo is a starting point for comparison of three module bundlers, webpack, rollup, and esbuild. They are each given the simplest task possible, executed with default settings (no plugins). They can be run with `npm run webpack`, `npm run rollup`, or `npm run esbuild`. The outputs ar ein the `dist_[bundler_name]` folders.  

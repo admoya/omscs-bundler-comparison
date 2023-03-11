@@ -1,0 +1,22 @@
+{
+  "name": "bundler-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -o dist_webpack --mode=production",
+    "rollup": "rollup src/index.js --file dist_rollup/main.js --format iife",
+    "esbuild": "esbuild src/index.js --bundle --outfile=dist_esbuild/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.11",
+    "html-webpack-plugin": "^5.5.0",
+    "rollup": "^3.19.1",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
